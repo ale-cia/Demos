@@ -1,0 +1,132 @@
+.cta {
+  color: #fff;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 55px;
+
+}
+
+#stage {
+  background: url('http://lorempixel.com/1000/500/abstract/4/') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse .container-fluid {
+    padding: 2rem 2.5rem;
+    border-bottom: 1px solid #55595c;
+  }
+
+  .navbar-collapse h4 {
+    color: #818a91;
+  }
+
+  .navbar-collapse .text-muted {
+    color: #818a91;
+  }
+
+  .about { 
+    float: left;
+    max-width: 30rem;
+    margin-right: 3rem;
+  }
+  /* 
+  .social a {
+    font-weight: 500;
+    color: #eceeef;
+  }
+  .social a:hover {
+    color: #fff;
+  }
+  */
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background: url('http://lorempixel.com/g/1024/768/abstract/9');
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+    background-size: cover;
+
+  }
+
+
+  .jumbotron-heading {
+    font-weight: 300;
+    text-shadow: rgba(255, 255, 255, 1.2);
+    color: white;
+
+  /*   background: rgba(255, 255, 255, 0.2); */
+
+  }
+
+  /*.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    color: white;
+  }
+  */
+  .jumbotron p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .photos {
+      display: inline;
+  }
+
+  /* 
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+  }
+
+  .card > img {
+    margin-bottom: .75rem;
+    max-width: 100%;
+  }
+
+  .card-text {
+    font-size: 85%;
+  }
+  */
+
+   /*Transitions and Transforms  */
+
+  img:hover {
+   transform: rotate(-5deg); 
+   position: absolute;
+   z-index: 2;
+   transform: scale(1.5);
+  }
+ 
+ /*transform: rotate(-5deg);
+ transform: scale(1.5);
+ z-index: 1;
+ position: relative;
+}*/
+
+  img {
+    width: 100%;
+
+    transition: transform .5s;
+  }
+
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+ 
